@@ -10,6 +10,8 @@ git reset --hard 4.1.4
 Gitlab will protect the master branch from a force push.  You have to go into Gitlab for the repo
 and remove the protection on the master branch.
 
+Now you can force the push to git.
+
 ```
 git push origin master --force
 ```
