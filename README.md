@@ -26,3 +26,6 @@ tag 5.1.0 for example with the reset --hard command.
 
 You should re-add the protection of the master branch in Gitlab once again.
 
+
+### This was some random stuff.
+
