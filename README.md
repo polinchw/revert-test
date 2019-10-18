@@ -3,16 +3,20 @@
 This assumes you are on the master branch.  This will reset the local master
 to whatever 4.1.4 was.
 
+#### Reset
+
 ```
 git reset --hard 4.1.4
 ```
 
+#### Unprotect
 Gitlab will protect the master branch from a force push.  You have to go into Gitlab for the repo
 and remove the protection on the master branch.
 
 ![Diagram](screenshots/revert.png)
 
 
+#### Push --force
 Now you can force the push to git.
 
 ```
@@ -24,6 +28,8 @@ The master branch should now be back to whatever tag 4.1.4 looked like.
 All of the more recent tags are still there, for example 5.1.0 should still be there.  You could even roll forward to
 tag 5.1.0 for example with the reset --hard command.
 
+
+#### Reprotect
 You should re-add the protection of the master branch in Gitlab once again.
 
 #### New tag
