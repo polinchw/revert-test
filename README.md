@@ -26,4 +26,8 @@ tag 5.1.0 for example with the reset --hard command.
 
 You should re-add the protection of the master branch in Gitlab once again.
 
+#### New tag
 
+After you've done the reset and push it's a good idea to manually create a new tag.  Take whatever the 
+highest tag number was and increment it.  So in this example if 5.1.0 was the great tag number manually create
+tag 5.2.0.
